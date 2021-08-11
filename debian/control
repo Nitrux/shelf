@@ -1,0 +1,34 @@
+Source: shelf
+Section: utils
+Priority: optional
+Build-Depends: debhelper,
+               extra-cmake-modules,
+               libkf5config-dev (>= 5.24.0~),
+               libkf5coreaddons-dev (>= 5.24.0~),
+               libkf5i18n-dev (>= 5.24.0~),
+               libkf5kio-dev,
+               libkf5notifications-dev (>= 5.24.0~),
+               libkf5service-dev (>= 5.24.0~),
+               libqt5svg5-dev,
+               mauikit-dev,
+               libmauikitfilebrowsing-dev,
+               libmauikitaccounts-dev,
+               qt5-qmake,
+               qtbase5-dev (>= 5.5.0~),
+               qtdeclarative5-dev,
+               qtquickcontrols2-5-dev
+Standards-Version: 4.2.1
+Homepage: https://github.com/maui-project/shelf
+Vcs-Git: https://anongit.neon.kde.org/mobile/shelf
+Vcs-Browser: https://packaging.neon.kde.org/mobile/shelf.git
+Maintainer: Neon CI <neon@kde.org>
+
+Package: shelf
+Architecture: any
+Depends: qml-module-org-kde-mauikit,
+         qml-module-qt-labs-platform,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Maui Document and EBook collection manager
+ Shelf allows you to save PDF documents and view them.
+ Shelf works on desktops, Android and Plasma Mobile.
