@@ -108,7 +108,7 @@ checkinstall -D -y \
 	--pakdir=../.. \
 	--maintainer=uri_herrera@nxos.org \
 	--provides=shelf \
-	--requires="libc6,libgcc-s1,libkf5coreaddons5,libkf5i18n5,libpoppler-qt5-1,libqt5core5a,libqt5gui5,libqt5qml5,libqt5quick5,libqt5widgets5,libqt5xml5,libstdc++6,mauikit \(\>= 2.1.0\),mauikit-accounts \(\>= 2.1.0\),mauikit-filebrowsing \(\>= 2.1.0\)qml-module-qt-labs-platform" \
+	--requires="libc6,libgcc-s1,libkf5coreaddons5,libkf5i18n5,libpoppler-qt5-1,libqt5core5a,libqt5gui5,libqt5qml5,libqt5quick5,libqt5widgets5,libqt5xml5,libstdc++6,mauikit \(\>= 2.1.0\),mauikit-accounts \(\>= 2.1.0\),mauikit-filebrowsing \(\>= 2.1.0\),qml-module-qt-labs-platform" \
 	--nodoc \
 	--strip=no \
 	--stripso=yes \
