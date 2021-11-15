@@ -36,7 +36,7 @@ wget -qO /etc/apt/sources.list.d/nitrux-testing-repo.list https://raw.githubuser
 DEBIAN_FRONTEND=noninteractive apt -qq update
 
 ### Install Package Build Dependencies #2
-### Clip needs ECM > 5.70
+### Shelf needs ECM > 5.70
 
 DEBIAN_FRONTEND=noninteractive apt -qq -yy install --no-install-recommends \
 	libkf5config-dev \
