@@ -107,7 +107,7 @@ checkinstall -D -y \
 	--pkgsource=shelf \
 	--pakdir=../.. \
 	--maintainer=uri_herrera@nxos.org \
-	--provides=shelf-git \
+	--provides=shelf \
 	--requires="libc6,libgcc-s1,libkf5coreaddons5,libkf5i18n5,libpoppler-qt5-1,libqt5core5a,libqt5gui5,libqt5qml5,libqt5quick5,libqt5widgets5,libqt5xml5,libstdc++6,mauikit-git \(\>= 2.1.1+git\),mauikit-accounts-git \(\>= 2.1.1+git\),mauikit-filebrowsing-git \(\>= 2.1.1+git\),qml-module-qt-labs-platform" \
 	--nodoc \
 	--strip=no \
