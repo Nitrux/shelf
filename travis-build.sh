@@ -48,12 +48,16 @@ DEBIAN_FRONTEND=noninteractive apt -qq -yy install --no-install-recommends \
 	libpoppler-dev \
 	libpoppler-qt5-dev \
 	libqt5svg5-dev \
+	libwayland-dev \
 	mauikit-git \
 	mauikit-accounts-git \
 	mauikit-filebrowsing-git \
 	qtbase5-dev \
 	qtdeclarative5-dev \
-	qtquickcontrols2-5-dev
+	qtquickcontrols2-5-dev \
+	qtwayland5 \
+	qtwayland5-dev-tools \
+	qtwayland5-private-dev
 
 DEBIAN_FRONTEND=noninteractive apt -qq -yy install --only-upgrade \
 	extra-cmake-modules
