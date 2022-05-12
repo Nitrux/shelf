@@ -60,7 +60,7 @@ DEBIAN_FRONTEND=noninteractive apt -qq -yy install --only-upgrade \
 
 ### Clone repo.
 
-git clone --single-branch --branch v2.1 https://invent.kde.org/maui/shelf.git
+git clone --single-branch --branch master https://invent.kde.org/maui/shelf.git
 
 rm -rf shelf/{android_files,macos_files,windows_files,examples,LICENSES,README.md}
 
@@ -99,7 +99,7 @@ checkinstall -D -y \
 	--install=no \
 	--fstrans=yes \
 	--pkgname=shelf-git \
-	--pkgversion=2.1.1+git+2 \
+	--pkgversion=2.1.2+git+1 \
 	--pkgarch=amd64 \
 	--pkgrelease="1" \
 	--pkglicense=LGPL-3 \
@@ -108,7 +108,7 @@ checkinstall -D -y \
 	--pakdir=../.. \
 	--maintainer=uri_herrera@nxos.org \
 	--provides=shelf \
-	--requires="libc6,libgcc-s1,libkf5coreaddons5,libkf5i18n5,libpoppler-qt5-1,libqt5core5a,libqt5gui5,libqt5qml5,libqt5quick5,libqt5widgets5,libqt5xml5,libstdc++6,mauikit-git \(\>= 2.1.1+git+1\),mauikit-accounts-git \(\>= 2.1.1+git+1\),mauikit-filebrowsing-git \(\>= 2.1.1+git+1\),qml-module-qt-labs-platform" \
+	--requires="libc6,libgcc-s1,libkf5coreaddons5,libkf5i18n5,libpoppler-qt5-1,libqt5core5a,libqt5gui5,libqt5qml5,libqt5quick5,libqt5widgets5,libqt5xml5,libstdc++6,mauikit-git \(\>= 2.1.2+git+1\),mauikit-accounts-git \(\>= 2.1.2+git+1\),mauikit-filebrowsing-git \(\>= 2.1.2+git+1\),qml-module-qt-labs-platform" \
 	--nodoc \
 	--strip=no \
 	--stripso=yes \
