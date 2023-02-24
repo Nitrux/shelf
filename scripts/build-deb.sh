@@ -19,6 +19,7 @@ apt -qq update
 apt -qq -yy install --no-install-recommends \
 	mauikit-git \
 	mauikit-accounts-git \
+	mauukit-documents-git \
 	mauikit-filebrowsing-git
 
 ### Download Source
@@ -40,7 +41,7 @@ cmake \
 	-DCMAKE_FIND_PACKAGE_NO_PACKAGE_REGISTRY=ON \
 	-DCMAKE_INSTALL_RUNSTATEDIR=/run "-GUnix Makefiles" \
 	-DCMAKE_VERBOSE_MAKEFILE=ON \
-	-DCMAKE_INSTALL_LIBDIR=lib/x86_64-linux-gnu ../shelf/
+	-DCMAKE_INSTALL_LIBDIR=/usr/lib/x86_64-linux-gnu ../shelf/
 
 make -j$(nproc)
 
@@ -70,7 +71,7 @@ checkinstall -D -y \
 	--pakdir=. \
 	--maintainer=uri_herrera@nxos.org \
 	--provides=shelf \
-	--requires="libc6,libkf5coreaddons5,libkf5i18n5,libpoppler-qt5-1,libqt5core5a,libqt5gui5,libqt5qml5,libqt5quick5,libqt5widgets5,libqt5xml5,libstdc++6,mauikit-git \(\>= 2.2.2+git\),mauikit-accounts-git \(\>= 2.2.0+git\),mauikit-filebrowsing-git \(\>= 2.2.2+git\),qml-module-qt-labs-platform" \
+	--requires="libc6,libkf5coreaddons5,libkf5i18n5,libpoppler-qt5-1,libqt5core5a,libqt5gui5,libqt5qml5,libqt5quick5,libqt5widgets5,libqt5xml5,libstdc++6,mauikit-git \(\>= 2.2.2+git\),mauikit-accounts-git \(\>= 2.2.0+git\),mauikit-documents-git \(\>= 2.2.0+git\),mauikit-filebrowsing-git \(\>= 2.2.2+git\),qml-module-qt-labs-platform" \
 	--nodoc \
 	--strip=no \
 	--stripso=yes \
