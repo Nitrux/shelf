@@ -19,7 +19,7 @@ apt -qq update
 apt -qq -yy install --no-install-recommends \
 	mauikit-git \
 	mauikit-accounts-git \
-	mauukit-documents-git \
+	maukit-documents-git \
 	mauikit-filebrowsing-git
 
 ### Download Source
