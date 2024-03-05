@@ -24,6 +24,7 @@ $APT_COMMAND install -qy --no-install-recommends \
     libkf5config-dev \
     libkf5coreaddons-dev \
     libkf5i18n-dev \
+    libkf5filemetadata3 \
     libkf5kio-dev \
     libkf5notifications-dev \
     libkf5service-dev \
