@@ -71,7 +71,7 @@ checkinstall -D -y \
 	--pakdir=. \
 	--maintainer=uri_herrera@nxos.org \
 	--provides=shelf \
-	--requires="libpoppler-qt6-3t64,mauikit-git \(\>= 4.0.1\),mauikit-accounts-git \(\>= 4.0.1\),mauikit-documents-git \(\>= 4.0.1\),mauikit-filebrowsing-git \(\>= 4.0.1\)" \
+	--requires="libpoppler-qt6-3t64,libqt6multimediawidgets6,libqt6spatialaudio6,mauikit-accounts-git \(\>= 4.0.1\),mauikit-documents-git \(\>= 4.0.1\),mauikit-filebrowsing-git \(\>= 4.0.1\)libqt6multimedia6,mauikit-git \(\>= 4.0.1\),qml6-module-qtmultimedia,qml6-module-qtquick3d-spatialaudio" \
 	--nodoc \
 	--strip=no \
 	--stripso=yes \
