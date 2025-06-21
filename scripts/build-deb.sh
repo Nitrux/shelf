@@ -84,5 +84,3 @@ checkinstall -D -y \
 	--nodoc \
 	--strip=no \
 	--stripso=yes \
-	--reset-uids=yes \
-	--deldesc=yes
