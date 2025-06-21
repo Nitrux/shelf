@@ -70,6 +70,7 @@ make install
 checkinstall -D -y \
 	--install=no \
 	--fstrans=yes \
+	--pkgname=shelf \
 	--pkgversion="$PACKAGE_VERSION" \
 	--pkgarch="$(dpkg --print-architecture)" \
 	--pkgarch=amd64 \
