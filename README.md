@@ -3,8 +3,6 @@
 
 [![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 
-![](https://nxos.org/wp-content/uploads/2025/03/Screenshot_20250228_234150.png)
-
 Document viewer for various document formats.
 
 # Issues
