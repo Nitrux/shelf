@@ -10,7 +10,7 @@ set -e
 
 
 # -- Download Source
-git clone --depth 1 --branch "$SHELF_BRANCH" https://invent.kde.org/maui/maui-shelf
+git clone --depth 1 --branch "$SHELF_BRANCH" https://github.com/Nitrux/maui-shelf.git
 
 
 # -- Compile Source
