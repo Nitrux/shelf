@@ -57,7 +57,7 @@ Priority: optional
 Architecture: ${TARGET_ARCH}
 Maintainer: uri_herrera@nxos.org
 Provides: shelf
-Depends: qml6-module-qtquick-controls,qml6-module-qtquick-layouts,qml6-module-qtquick-window,libqt6core6t64,libqt6gui6,libqt6qml6,libqt6quick6,libqt6sql6,kio-extras,libkf6filemetadata6,libpoppler-qt6-3t64,libqt6multimedia6,libqt6multimediawidgets6,libqt6spatialaudio6,mauikit-documents (>= 4.0.4),mauikit-filebrowsing (>= 4.0.4),mauikit (>= 4.0.4),qml6-module-org-kde-sonnet,qml6-module-qtcore,qml6-module-qtmultimedia,qml6-module-qtquick-effects,qml6-module-qtquick3d-spatialaudio
+Depends: qml6-module-qtquick-controls,qml6-module-qtquick-layouts,qml6-module-qtquick-window,libqt6core6t64,libqt6gui6,libqt6qml6,libqt6quick6,libqt6sql6,kio-extras,libkf6filemetadata3,libpoppler-qt6-3t64,libqt6multimedia6,libqt6multimediawidgets6,libqt6spatialaudio6,mauikit-documents (>= 4.0.4),mauikit-filebrowsing (>= 4.0.4),mauikit (>= 4.0.4),qml6-module-org-kde-sonnet,qml6-module-qtcore,qml6-module-qtmultimedia,qml6-module-qtquick-effects,qml6-module-qtquick3d-spatialaudio
 Description: shelf
  shelf
 CONTROL
